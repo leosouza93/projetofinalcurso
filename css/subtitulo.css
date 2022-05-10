@@ -1,0 +1,24 @@
+.subtitulo {
+  background: #111;
+  padding: 60px 100px;
+  margin: 0 auto;
+}
+
+.subtitulo-texto {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subtitulo-texto p {
+  color: #ccc;
+  font-size: 1.5rem;
+}
+
+.subtitulo-texto h1 {
+  color: #fff;
+  font-size: 5rem;
+}
+
+.subtitulo-texto span {
+  color: orange;
+}

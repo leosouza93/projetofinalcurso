@@ -1,0 +1,12 @@
+footer {
+  margin-top: 60px;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.rodape a {
+  display: block;
+}
