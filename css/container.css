@@ -1,6 +1,11 @@
 .container {
   display: grid;
+  max-width: 1200px;
+  padding: 40px;
+  margin: 20px auto;
+  align-items: center;
   gap: 60px;
+  font-family: "Poppins";
 }
 
 .produto {
@@ -10,4 +15,31 @@
 
 .produto ul {
   display: block;
+}
+
+.descricao {
+  padding: 30px 60px;
+}
+
+.descricao h2 {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+
+.descricao p {
+  margin-bottom: 20px;
+}
+
+.descricao ul li {
+  font-size: 1.2rem;
+  line-height: 3rem;
+}
+
+.descricao-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.descricao-box a {
+  grid-column: 3;
 }
