@@ -1,24 +1,29 @@
-.header {
-  background: #000;
+.header-bg {
+  background-color: #000000;
   font-family: "Poppins";
 }
 
-.header div {
+.header {
   max-width: 1200px;
-  padding: 40px 20px;
-  margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
   justify-content: space-between;
   align-items: center;
 }
 
 .header-menu {
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .header-menu a {
+  display: inline-block;
   font-size: 1.3rem;
-  color: #fff;
-  padding: 10px 5px;
+  color: #ffffff;
+  padding: 16px 0px;
 }

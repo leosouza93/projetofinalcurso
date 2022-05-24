@@ -11,35 +11,30 @@
 .produto {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
 
-.produto ul {
-  display: block;
+.vantagens-produto {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
 }
 
-.descricao {
-  padding: 30px 60px;
+.vantagens-produto a {
+  grid-column: 3;
 }
 
-.descricao h2 {
+.vantagens-produto {
+  padding: 20px;
+}
+
+.vantagens-produto h2 {
   font-size: 2.3rem;
   margin-bottom: 20px;
 }
 
-.descricao p {
-  margin-bottom: 20px;
-}
-
-.descricao ul li {
-  font-size: 1.2rem;
-  line-height: 3rem;
-}
-
-.descricao-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.descricao-box a {
-  grid-column: 3;
+.botao a {
+  background: orange;
+  padding: 20px;
+  border-radius: 4px;
+  place-self: end;
 }
